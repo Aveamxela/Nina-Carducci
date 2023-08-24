@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Spectral&display=swap');
+
 body {
 	max-width: 1920px;
 	margin: auto;
@@ -31,6 +33,7 @@ body {
 
 .nav li {
 	padding-inline: 10px;
+    height: 22px;
 }
 
 .nav a {
@@ -136,7 +139,6 @@ body {
 	display: flex;
 	font-size: 24px;
 }
-
 .quote {
 	font-family: 'Spectral';
 	font-style: italic;
@@ -244,7 +246,6 @@ input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
 }
-
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
@@ -354,4 +355,5 @@ input[type="submit"] {
 		width: 80%;
 	}
 }
+
 
